@@ -30,7 +30,7 @@ const Post = props => {
       />
       
       {/* Comments also wants its props! */}
-      <Comments 
+      <Comments
         comments={post.comments} 
       />
     </div>
